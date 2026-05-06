@@ -1,0 +1,9 @@
+; User-defined MiniMacro program
+
+MACRO CUBE(N)
+    SET RESULT = N * N * N
+    PRINT RESULT
+MEND
+
+CALL CUBE(3)
+CALL CUBE(4)
